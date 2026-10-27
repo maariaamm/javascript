@@ -4,3 +4,4 @@
 
 const pris = 100;
 const antal = 3;
+const totalt = pris + antal;
