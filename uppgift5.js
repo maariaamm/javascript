@@ -5,8 +5,8 @@
 const dishes = ["Pasta carbonara", "Lasagne", "Köttbullar", "Pizza", "Tacos"];
 
 // Skriver ut hela arrayen
-console.log("Hela arrayen:", dishes);
+console.log(dishes);
 
 // Skriver ut det första och det sista elementet
-console.log("Första maträtten:", dishes[0]);
-console.log("Sista maträtten:", dishes[dishes.length - 1]);
+console.log(dishes[0]);
+console.log(dishes[dishes.length - 1]);
