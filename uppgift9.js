@@ -28,3 +28,7 @@ function printPersonInfo(person) {
     console.log(person.name + " bor i " + person.city + " och är inte myndig.");
   }
 }
+// Går igenom arrayen med en loop och skriver ut informationen om varje person
+for (let i = 0; i < people.length; i++) {
+  printPersonInfo(people[i]);
+}
