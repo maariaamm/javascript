@@ -4,3 +4,4 @@
 const firstName = "Mariam";
 const lastName = "Aljizawi";
 const age = 28;
+const isStudent = true;
