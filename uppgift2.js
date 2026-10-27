@@ -5,3 +5,4 @@
 const pris = 100;
 const antal = 3;
 const totalt = pris + antal;
+const totaltPlusMoms = totalt * 1.25; // beräknar totalsumman med en ökning på 25%
