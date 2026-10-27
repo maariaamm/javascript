@@ -11,3 +11,8 @@ function calculateSum(numbers) {
 
   return sum;
 }
+// Array med sex tal
+const numbers = [5, 8, 3, 10, 6, 10];
+
+// skriver ut summan av talen i arrayen
+console.log("Summan är " + calculateSum(numbers));
