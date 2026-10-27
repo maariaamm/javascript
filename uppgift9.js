@@ -19,3 +19,12 @@ const people = [
     city: "Härnösand",
   },
 ];
+// Skriver ut namn, stad och om personen är myndig
+function printPersonInfo(person) {
+  // Villkor som avgör om personen är myndig (18 år eller äldre)
+  if (person.age >= 18) {
+    console.log(person.name + " bor i " + person.city + " och är myndig.");
+  } else {
+    console.log(person.name + " bor i " + person.city + " och är inte myndig.");
+  }
+}
